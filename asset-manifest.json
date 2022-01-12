@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Idea-Management/static/css/main.aeec8ddc.css",
-    "main.js": "/Idea-Management/static/js/main.aa78043e.js",
+    "main.js": "/Idea-Management/static/js/main.934b4c34.js",
     "index.html": "/Idea-Management/index.html",
     "main.aeec8ddc.css.map": "/Idea-Management/static/css/main.aeec8ddc.css.map",
-    "main.aa78043e.js.map": "/Idea-Management/static/js/main.aa78043e.js.map"
+    "main.934b4c34.js.map": "/Idea-Management/static/js/main.934b4c34.js.map"
   },
   "entrypoints": [
     "static/css/main.aeec8ddc.css",
-    "static/js/main.aa78043e.js"
+    "static/js/main.934b4c34.js"
   ]
 }
