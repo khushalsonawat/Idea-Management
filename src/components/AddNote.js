@@ -18,9 +18,10 @@ const AddNote = ({ handleAddNote }) => {
 	};
 
 	const handleSaveClick = () => {
-		if (noteText.trim().length > 0) {
+		if (noteText.trim().length > 0 && categoryText.trim().length > 0) {
 			handleAddNote(noteText,categoryText);
 			setNoteText('');
+			setCategoryText('');
 		}
 	};
 
@@ -33,11 +34,12 @@ const AddNote = ({ handleAddNote }) => {
 				value={noteText}
 				onChange={handleChange}
 			></textarea>
-			<input
+			<textarea
 				placeholder='Category...'
 				value={categoryText}
 				onChange={handleChange2}
-			/>
+				id = "val"
+			></textarea>
 			<div className='note-footer'>
 				<small>
 					{characterLimit - noteText.length} Remaining
