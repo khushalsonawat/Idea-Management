@@ -19,7 +19,7 @@ code {
 }
 
 .dark-mode {
-	background-color: black;
+	background-color: #262626;
 }
 
 .dark-mode h1 {
@@ -80,6 +80,22 @@ textarea:focus {
 	justify-content: space-between;
 	box-shadow: 10px 10px 5px grey;
 	white-space: pre-wrap;
+}
+
+.dropbox {
+	/* display: none; */
+	background-color: #2e2e2e;
+	color : white;
+	padding: 3px;
+	font-size: 16px;
+	border-radius: 0.5em;
+	border: none;
+	cursor: pointer;
+}
+
+.options{
+	background-color:white;
+	color : black;
 }
 
 .note-footer {
