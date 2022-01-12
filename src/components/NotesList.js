@@ -14,6 +14,7 @@ const NotesList = ({
 				<Note
 					id={note.id}
 					text={note.text}
+					category={note.category}
 					date={note.date}
 					handleDeleteNote={handleDeleteNote}
 				/>

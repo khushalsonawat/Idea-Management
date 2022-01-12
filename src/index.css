@@ -54,6 +54,12 @@ textarea {
 	background-color: #67d7cc;
 }
 
+input{
+	border: none;
+	resize: none;
+	background-color: #67d7cc;
+}
+
 textarea:focus {
 	outline: none;
 }
