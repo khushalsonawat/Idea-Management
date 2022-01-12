@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/idea-management/static/css/main.aeec8ddc.css",
-    "main.js": "/idea-management/static/js/main.aa78043e.js",
-    "index.html": "/idea-management/index.html",
-    "main.aeec8ddc.css.map": "/idea-management/static/css/main.aeec8ddc.css.map",
-    "main.aa78043e.js.map": "/idea-management/static/js/main.aa78043e.js.map"
+    "main.css": "/Idea-Management/static/css/main.aeec8ddc.css",
+    "main.js": "/Idea-Management/static/js/main.aa78043e.js",
+    "index.html": "/Idea-Management/index.html",
+    "main.aeec8ddc.css.map": "/Idea-Management/static/css/main.aeec8ddc.css.map",
+    "main.aa78043e.js.map": "/Idea-Management/static/js/main.aa78043e.js.map"
   },
   "entrypoints": [
     "static/css/main.aeec8ddc.css",
