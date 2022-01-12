@@ -9,4 +9,4 @@ Run the code in http://localhost:3000 using
 npm start
 ```
 
-The project is deployed at https://ksonawat007.github.io/idea-management
+The project is deployed at https://ksonawat007.github.io/Idea-Management
