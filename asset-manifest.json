@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Idea-Management/static/css/main.aeec8ddc.css",
-    "main.js": "/Idea-Management/static/js/main.934b4c34.js",
+    "main.css": "/Idea-Management/static/css/main.5b8eda6c.css",
+    "main.js": "/Idea-Management/static/js/main.490905fb.js",
     "index.html": "/Idea-Management/index.html",
-    "main.aeec8ddc.css.map": "/Idea-Management/static/css/main.aeec8ddc.css.map",
-    "main.934b4c34.js.map": "/Idea-Management/static/js/main.934b4c34.js.map"
+    "main.5b8eda6c.css.map": "/Idea-Management/static/css/main.5b8eda6c.css.map",
+    "main.490905fb.js.map": "/Idea-Management/static/js/main.490905fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeec8ddc.css",
-    "static/js/main.934b4c34.js"
+    "static/css/main.5b8eda6c.css",
+    "static/js/main.490905fb.js"
   ]
 }
