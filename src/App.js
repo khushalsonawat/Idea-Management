@@ -65,6 +65,13 @@ const App = () => {
 		const newNotes = notes.filter((note) => note.id !== id);
 		setNotes(newNotes);
 	};
+
+	const updateNote = (id,newText,newCategory) => {
+		const newNote = notes.filter((note) => note.id === id);
+		newNote.category = newCategory;
+		newNote.text = newText;
+		console.log(newNote.id);
+	}
 	
 	return (
 		<div className={`${darkMode && 'dark-mode'}`}>
@@ -75,8 +82,9 @@ const App = () => {
 					notes={notes.filter((note) =>
 						note.text.includes(searchText)
 					)}
-					handleAddNote={addNote}
 					handleDeleteNote={deleteNote}
+					handleAddNote={addNote}
+					handleUpdateNote={updateNote}
 				/>
 			</div>
 		</div>

@@ -7,6 +7,7 @@ const NotesList = ({
 	notes,
 	handleAddNote,
 	handleDeleteNote,
+	handleUpdateNote,
 }) => {
 	return (
 		<div className='notes-list'>
@@ -17,6 +18,7 @@ const NotesList = ({
 					category={note.category}
 					date={note.date}
 					handleDeleteNote={handleDeleteNote}
+					handleUpdateNote={handleUpdateNote}
 				/>
 			))}
 			<AddNote handleAddNote={handleAddNote} />

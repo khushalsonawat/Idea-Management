@@ -132,3 +132,24 @@ textarea:focus {
 .search input:focus {
 	outline: none;
 }
+
+.footer{
+	width:50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.category{
+	max-width: 200px;
+	/* margin:auto; */
+	text-align: center;
+	align-self: center;
+	background-color: #3b3b3b;
+	color:white;
+	border-radius: 0.25em;
+}
+
+.note-body{
+	background-color: #fef68a;
+	;
+}
