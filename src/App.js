@@ -34,7 +34,7 @@ const App = () => {
 
 	useEffect(() => {
 		const savedNotes = JSON.parse(
-			localStorage.getItem('react-notes-app-data')
+			localStorage.getItem('Idea-management')
 		);
 
 		if (savedNotes) {
@@ -44,12 +44,12 @@ const App = () => {
 
 	useEffect(() => {
 		localStorage.setItem(
-			'react-notes-app-data',
+			'Idea-management',
 			JSON.stringify(notes)
 		);
 	}, [notes]);
 
-	const addNote = (category,text) => {
+	const addNote = (text,category) => {
 		const date = new Date();
 		const newNote = {
 			id: nanoid(),
@@ -70,7 +70,7 @@ const App = () => {
 		const newNote = notes.filter((note) => note.id === id);
 		newNote.category = newCategory;
 		newNote.text = newText;
-		console.log(newNote.id);
+		console.log(newNote.newText);
 	}
 	
 	return (

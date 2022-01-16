@@ -3,23 +3,22 @@ import {BsPencilSquare} from 'react-icons/bs';
 import Draggable from 'react-draggable';
 import { useState } from 'react';
 
-const Note = ({ id, text,category,date,handleDeleteNote,handleUpdateNote}) => {
+const Note = ({ id,text,category,date,handleDeleteNote,handleUpdateNote}) => {
 	const [editable,setEditable] = useState(false);
 	
 	const handleEdit = () => {
-		if(editable){
-			handleUpdateNote(id,{text},{category});
-		}
 		setEditable(!editable);
-		
+		if(editable){
+			handleUpdateNote(id,text,category);
+		}
 	}
-
+	console.log(text);
 	return (
 		<Draggable>
 		<div className='note'>
 			<div className='header'>
-			<span contentEditable={editable}>{category}</span>
-			<span contentEditable={editable}>{text}</span>
+				<span contentEditable={editable}>{text}</span>
+				<span contentEditable={editable}>{category}</span>
 			</div>
 			<div className='note-footer'>
 				<small>{date}</small>
